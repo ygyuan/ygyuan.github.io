@@ -5,132 +5,29 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Research Publications
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=eQwn2vEAAAAJ">my Google Scholar profile</a>.</div>
+{% endif %}
 
-This page lists my academic publications in chronological order. For detailed information about each publication, including abstracts and links to full-text versions, please click on the individual publication titles.
+{% include base_path %}
 
-### Publication Categories
-
-- **Journal Articles**: Peer-reviewed publications in academic journals
-- **Conference Papers**: Presentations at international conferences and symposiums
-- **Technical Reports**: Research reports and technical documentation
-
-### Filter by Year
-
-<div class="publication-filters">
-  <button class="filter-btn active" data-filter="all">All Publications</button>
-  <button class="filter-btn" data-filter="2023">2023</button>
-  <button class="filter-btn" data-filter="2021">2021</button>
-  <button class="filter-btn" data-filter="2020">2020</button>
-  <button class="filter-btn" data-filter="2019">2019</button>
-  <button class="filter-btn" data-filter="2018">2018</button>
-  <button class="filter-btn" data-filter="2017">2017</button>
-  <button class="filter-btn" data-filter="2016">2016</button>
-  <button class="filter-btn" data-filter="2015">2015</button>
-  <button class="filter-btn" data-filter="2014">2014</button>
-</div>
-
-### Publication List
-
-<div class="publications-container">
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-</div>
-
-### Citation Metrics
-
-- **Google Scholar**: [View Profile](https://scholar.google.com/citations?user=eQwn2vEAAAAJ)
-- **ORCID**: [0000-0002-2490-566X](https://orcid.org/0000-0002-2490-566X)
-- **ResearchGate**: [Profile](https://www.researchgate.net/profile/Yougen-Yuan)
-
-### Download Publications
-- [BibTeX File](/files/bibtex1.bib)
-
-<script>
-// Publication filtering functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const publicationItems = document.querySelectorAll('.publications-container .archive__item');
-    
-    // Add year data attributes to publication items
-    publicationItems.forEach(item => {
-        const dateElement = item.querySelector('.archive__item-date');
-        if (dateElement) {
-            const dateText = dateElement.textContent.trim();
-            const yearMatch = dateText.match(/\b(\d{4})\b/);
-            if (yearMatch) {
-                item.setAttribute('data-year', yearMatch[1]);
-            }
-        }
-    });
-    
-    // Filter functionality
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const filterValue = this.getAttribute('data-filter');
-            
-            // Update active button
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            this.classList.add('active');
-            
-            // Filter publications
-            publicationItems.forEach(item => {
-                const itemYear = item.getAttribute('data-year');
-                
-                if (filterValue === 'all' || filterValue === itemYear) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        });
-    });
-});
-</script>
-
-<style>
-.publication-filters {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.filter-btn {
-    background-color: #f8f9fa;
-    border: 1px solid #dee2e6;
-    border-radius: 4px;
-    color: #495057;
-    cursor: pointer;
-    font-size: 14px;
-    margin: 0 5px 10px 0;
-    padding: 8px 16px;
-    transition: all 0.3s ease;
-}
-
-.filter-btn:hover {
-    background-color: #e9ecef;
-    border-color: #adb5bd;
-}
-
-.filter-btn.active {
-    background-color: #007bff;
-    border-color: #007bff;
-    color: white;
-}
-
-.publications-container .archive__item {
-    transition: opacity 0.3s ease;
-}
-
-.publications-container .archive__item[style*="display: none"] {
-    opacity: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-</style>
-
----
-
-*Last updated: March 2026*
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endif %}
