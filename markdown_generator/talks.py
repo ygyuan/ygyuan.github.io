@@ -1,9 +1,9 @@
 
 # coding: utf-8
 
-# # Talks markdown generator for academicpages
+# # Talks markdown generator for ygyuan
 # 
-# Takes a TSV of talks with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). The core python code is also in `talks.py`. Run either from the `markdown_generator` folder after replacing `talks.tsv` with one containing your data.
+# Takes a TSV of talks with metadata and converts them for use with [ygyuan.github.io](ygyuan.github.io). This is an interactive Jupyter notebook ([see more info here](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/what_is_jupyter.html)). The core python code is also in `talks.py`. Run either from the `markdown_generator` folder after replacing `talks.tsv` with one containing your data.
 # 
 # TODO: Make this work with BibTex and other databases, rather than Stuart's non-standard TSV format and citation style.
 
@@ -108,4 +108,3 @@ for row, item in talks.iterrows():
 
 
 # These files are in the talks directory, one directory below where we're working from.
-
