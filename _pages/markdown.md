@@ -1,6 +1,6 @@
 ---
 permalink: /markdown/
-title: "Markdown Syntax Guide"
+title: "MarkdownGuide"
 author_profile: true
 redirect_from: 
   - /md/
