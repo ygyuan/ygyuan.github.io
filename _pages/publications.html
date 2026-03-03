@@ -45,9 +45,91 @@ This page lists my academic publications in chronological order. For detailed in
 - **ResearchGate**: [Profile](https://www.researchgate.net/profile/Yougen-Yuan)
 
 ### Download Publications
-
-- [Complete Publication List (PDF)](/files/publications.pdf)
 - [BibTeX File](/files/bibtex1.bib)
+
+<script>
+// Publication filtering functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const publicationItems = document.querySelectorAll('.publications-container .archive__item');
+    
+    // Add year data attributes to publication items
+    publicationItems.forEach(item => {
+        const dateElement = item.querySelector('.archive__item-date');
+        if (dateElement) {
+            const dateText = dateElement.textContent.trim();
+            const yearMatch = dateText.match(/\b(\d{4})\b/);
+            if (yearMatch) {
+                item.setAttribute('data-year', yearMatch[1]);
+            }
+        }
+    });
+    
+    // Filter functionality
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filterValue = this.getAttribute('data-filter');
+            
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Filter publications
+            publicationItems.forEach(item => {
+                const itemYear = item.getAttribute('data-year');
+                
+                if (filterValue === 'all' || filterValue === itemYear) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>
+
+<style>
+.publication-filters {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filter-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    color: #495057;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px 10px 0;
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+.filter-btn.active {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.publications-container .archive__item {
+    transition: opacity 0.3s ease;
+}
+
+.publications-container .archive__item[style*="display: none"] {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+</style>
 
 ---
 
