@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Yougen Yuan",
+    "email": "ygyuan@nwpu-aslp.org",
     "phone": "",
     "website": "https://ygyuan.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "summary": "Currently employed at Tencent. Working on LLMs/VLLMs, speech processing, Multimodal Learning, Clustering and Retrieval.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Beijing",
       "countryCode": "US",
       "region": ""
     },
@@ -16,137 +16,139 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?user=eQwn2vEAAAAJ&hl=zh-CN"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/0000-0002-2490-566X"
       },
       {
         "network": "GitHub",
-        "username": "ygyuan",
-        "url": "https://github.com/ygyuan"
+        "username": "https://github.com/ygyuan",
+        "url": "https://github.com/https://github.com/ygyuan"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "https://www.linkedin.com/in/yougenyuan",
+        "url": "https://www.linkedin.com/in/https://www.linkedin.com/in/yougenyuan"
       }
     ]
   },
   "work": [],
-  "education": [
-    {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
-    }
-  ],
+  "education": [],
   "skills": [],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://ygyuan.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "A Hybrid Virtual Bass System with Improved Phase Vocoder and High Efficiency",
+      "publisher": "Proc. ISCSLP",
+      "releaseDate": "2014-01-01",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://ygyuan.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Externalization Improvement in a Real-time Binaural Sound Image Rendering System",
+      "publisher": "Proc. ICOT",
+      "releaseDate": "2015-01-01",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://ygyuan.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Deep neural network derived bottleneck features for accurate audio classification",
+      "publisher": "Proc. ICMEW",
+      "releaseDate": "2016-01-01",
+      "website": "",
+      "summary": ""
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://ygyuan.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Learning Neural Network Representation using Cross-lingual Bottleneck Features with Word-pair Information",
+      "publisher": "Proc. INTERSPEECH",
+      "releaseDate": "2016-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Extracting Bottleneck Features and Word-like Pairs from Untranscribed Speech for Feature Representation",
+      "publisher": "Proc. ASRU",
+      "releaseDate": "2017-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Pairwise Learning using Multi-lingual Bottleneck Features for Low-resource Query-by-example Spoken Term Detection",
+      "publisher": "Proc. ICASSP",
+      "releaseDate": "2017-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Sound Image Externalization for Headphone based Real\ttime 3D Audio",
+      "publisher": "Frontiers of Computer Science",
+      "releaseDate": "2017-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Learning Acoustic Word Embeddings with Temporal Context for Query-by-Example Speech Search",
+      "publisher": "Proc. INTERSPEECH",
+      "releaseDate": "2018-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Many-to-many voice conversion based on bottleneck features with variational autoencoder for non-parallel training data",
+      "publisher": "Proc. APSIPA ASC",
+      "releaseDate": "2018-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Deep audio-visual system for closed-set word-level speech recognition",
+      "publisher": "2019 International Conference on Multimodal Interaction",
+      "releaseDate": "2019-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Query-by-example speech search using recurrent neural acoustic word embeddings with temporal context",
+      "publisher": "IEEE Access",
+      "releaseDate": "2019-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Verifying deep keyword spotting detection with acoustic word embeddings",
+      "publisher": "2019 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
+      "releaseDate": "2019-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "Fast query-by-example speech search using attention-based deep binary embeddings",
+      "publisher": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "releaseDate": "2020-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "VRM-Phase I VKW system description of long-short video customizable keyword wakeup challenge",
+      "publisher": "arXiv preprint arXiv:2110.15316",
+      "releaseDate": "2021-01-01",
+      "website": "",
+      "summary": ""
+    },
+    {
+      "name": "A Method of Audio-Visual Person Verification by Mining Connections between Time Series",
+      "publisher": "Proc. INTERSPEECH",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": ""
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
