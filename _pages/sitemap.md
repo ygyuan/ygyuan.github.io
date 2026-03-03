@@ -1,18 +1,18 @@
 ---
 layout: archive
-title: "网站地图"
+title: "Sitemap"
 permalink: /sitemap/
 author_profile: true
 ---
 
-本网站所有页面和内容的完整列表。
+Complete list of all pages and content on this website.
 
-## 页面列表
+## Page List
 {% for post in site.pages %}
   {% include archive-single.html %}
 {% endfor %}
 
-## 文章列表
+## Post List
 {% for post in site.posts %}
   {% include archive-single.html %}
 {% endfor %}

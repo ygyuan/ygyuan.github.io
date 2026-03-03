@@ -1,50 +1,50 @@
 ---
-title: "页面布局示例"
+title: "Page Layout Examples"
 layout: archive
 permalink: /archive-layout-with-content/
 ---
 
-## 页面布局和样式示例
+## Page Layout and Style Examples
 
-本页面展示了本网站支持的各种页面布局和样式效果。
+This page demonstrates various page layouts and style effects supported by this website.
 
-### 基本文本样式
+### Basic Text Styles
 
-- **粗体文本**
-- *斜体文本*
-- ***粗斜体文本***
+- **Bold text**
+- *Italic text*
+- ***Bold italic text***
 
-### 列表样式
+### List Styles
 
-#### 无序列表
-- 项目1
-- 项目2
-  - 子项目1
-  - 子项目2
+#### Unordered List
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
 
-#### 有序列表
-1. 第一项
-2. 第二项
-   1. 子项1
-   2. 子项2
+#### Ordered List
+1. First item
+2. Second item
+   1. Subitem 1
+   2. Subitem 2
 
-### 表格示例
+### Table Example
 
-| 标题1 | 标题2 | 标题3 |
-|-------|-------|-------|
-| 内容1 | 内容2 | 内容3 |
-| 内容4 | 内容5 | 内容6 |
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Content 1 | Content 2 | Content 3 |
+| Content 4 | Content 5 | Content 6 |
 
-### 引用样式
+### Blockquote Style
 
-> 这是一个引用示例
-> 可以包含多行内容
+> This is a blockquote example
+> Can contain multiple lines of content
 
-### 代码样式
+### Code Styles
 
-行内代码：`print("Hello World")`
+Inline code: `print("Hello World")`
 
-代码块：
+Code block:
 ```python
 def hello_world():
     print("Hello World!")
@@ -52,4 +52,4 @@ def hello_world():
 
 ---
 
-*本页面展示了网站的基本样式效果，更多详细功能请参考其他页面。*
+*This page demonstrates basic style effects of the website. For more detailed features, please refer to other pages.*

@@ -1,75 +1,55 @@
 ---
 permalink: /
-title: "个人信息简介"
+title: "YougenYuan"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-# 个人简介
+## Personal Profile
 
-欢迎来到我的个人主页！我是一名专注于文本/视觉/多模态的大型语言模型语言模型、语音处理、多模态学习、聚类与检索的研究人员和工程师。
+Welcome to my personal homepage! I am a researcher and engineer specializing in text/visual/multimodal large language models, speech processing, multimodal learning, clustering and retrieval.
 
-## 基本信息
+## Basic Information
 
-- **姓名**: [您的姓名]
-- **职位**: [您的职位，如：研究员、工程师、教授等]
-- **机构**: [您所在的机构或公司]
-- **邮箱**: [您的邮箱地址]
-- **研究方向**: [您的主要研究方向]
+- **Name**: Yougen Yuan
+- **Position**: Senior AI Algorithm Engineer
+- **Institution**: Tencent
+- **Email**: yougenyuan@gmail.com
 
-## 教育背景
+## Education Background
 
-- **[学位]** - [学校名称]，[专业]，[年份]
-- **[学位]** - [学校名称]，[专业]，[年份]
+- **[Ph.D Degree]** - Northwestern Polytechnical University, Speech Processing, 2014.9-2019.12
+- **[Bachelor Degree]** - University Name, Computer Science, 2010.9-2024.6
 
-## 研究兴趣
+## Research Interests
 
-- [研究方向1]
-- [研究方向2]
-- [研究方向3]
+- text/visual/multimodal large language models
+- speech processing
+- multimodal learning, clustering and retrieval
 
-## 工作经历
+## Work Experience
 
-- **[职位]** - [公司/机构名称]，[时间段]
-  - [工作内容描述]
-- **[职位]** - [公司/机构名称]，[时间段]
-  - [工作内容描述]
+- **Engineer** - Tencent, 2020.1-Now
+  - [Job description]
+- **Joint-trained Ph.D program** - National University of Singapore, 2017.09-2018.09
+- **Intern** - Institute for Infocomm Research, 2016.01-2017.01
 
-## 专业技能
+## Technical Skills
 
-- **编程语言**: [语言1], [语言2], [语言3]
-- **技术栈**: [技术1], [技术2], [技术3]
-- **工具软件**: [工具1], [工具2], [工具3]
+- **Programming Languages**: Python, C++, Bash
+- **Technical Stack**: 
+- **Tools & Software**: 
 
-## 近期项目
+## Contact Information
 
-### [项目名称1]
-- **时间**: [项目时间]
-- **描述**: [项目简要描述]
-- **技术**: [使用的技术]
+If you are interested in my research or projects, feel free to contact me through:
 
-### [项目名称2]
-- **时间**: [项目时间]
-- **描述**: [项目简要描述]
-- **技术**: [使用的技术]
-
-## 发表成果
-
-- [发表论文1]
-- [发表论文2]
-- [发表论文3]
-
-## 联系方式
-
-如果您对我的研究或项目感兴趣，欢迎通过以下方式联系我：
-
-- **邮箱**: [您的邮箱地址]
-- **GitHub**: [您的GitHub链接]
-- **LinkedIn**: [您的LinkedIn链接]
-- **个人网站**: [您的个人网站链接]
+- **Email**: yougenyuan@gmail.com
+- **GitHub**: "https://github.com/ygyuan"
+- **LinkedIn**: "https://www.linkedin.com/in/yougenyuan"
 
 ---
 
-*最后更新: 2026年3月*
+*Last updated: March 2026*

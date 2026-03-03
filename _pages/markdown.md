@@ -1,114 +1,114 @@
 ---
 permalink: /markdown/
-title: "Markdown语法指南"
+title: "Markdown Syntax Guide"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## 基本Markdown语法
+## Basic Markdown Syntax
 
-### 标题
-
-```markdown
-# 一级标题
-## 二级标题
-### 三级标题
-#### 四级标题
-##### 五级标题
-###### 六级标题
-```
-
-### 段落和换行
-
-- 普通段落：直接输入文本
-- 换行：行末添加两个空格或空行
-
-### 列表
-
-#### 无序列表
-```markdown
-- 项目1
-- 项目2
-  - 子项目1
-  - 子项目2
-```
-
-#### 有序列表
-```markdown
-1. 第一项
-2. 第二项
-   1. 子项1
-   2. 子项2
-```
-
-### 强调
+### Headers
 
 ```markdown
-*斜体文本*
-**粗体文本**
-***粗斜体文本***
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
 ```
 
-### 链接和图片
+### Paragraphs and Line Breaks
+
+- Regular paragraph: Direct text input
+- Line break: Add two spaces at end of line or empty line
+
+### Lists
+
+#### Unordered List
+```markdown
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
+```
+
+#### Ordered List
+```markdown
+1. First item
+2. Second item
+   1. Subitem 1
+   2. Subitem 2
+```
+
+### Emphasis
 
 ```markdown
-[链接文本](https://example.com)
-![图片描述](图片路径)
+*Italic text*
+**Bold text**
+***Bold italic text***
 ```
 
-### 代码
+### Links and Images
 
-行内代码：`code`
+```markdown
+[Link text](https://example.com)
+![Image description](image-path)
+```
 
-代码块：
+### Code
+
+Inline code: `code`
+
+Code block:
 ```python
 print("Hello World!")
 ```
 
-### 表格
+### Tables
 
 ```markdown
-| 标题1 | 标题2 | 标题3 |
-|-------|-------|-------|
-| 内容1 | 内容2 | 内容3 |
-| 内容4 | 内容5 | 内容6 |
+| Header 1 | Header 2 | Header 3 |
+|----------|----------|----------|
+| Content 1 | Content 2 | Content 3 |
+| Content 4 | Content 5 | Content 6 |
 ```
 
-### 引用
+### Blockquotes
 
 ```markdown
-> 引用文本
-> 多行引用
+> Blockquote text
+> Multi-line blockquote
 ```
 
-## 本网站支持的扩展功能
+## Extended Features Supported on This Site
 
-### 数学公式
+### Mathematical Formulas
 
-支持MathJax渲染LaTeX公式：
+Supports MathJax for LaTeX formula rendering:
 
-行内公式：\(E = mc^2\)
+Inline formula: \(E = mc^2\)
 
-块级公式：
+Block formula:
 $$
 \nabla \cdot E = \frac{\rho}{\epsilon_0}
 $$
 
-### 图表
+### Diagrams
 
-支持Mermaid图表：
+Supports Mermaid diagrams:
 
 ```mermaid
 graph LR
 A-->B
 ```
 
-### 高级功能
+### Advanced Features
 
-- 脚注支持
-- HTML标签嵌入
-- 自定义样式类
+- Footnote support
+- HTML tag embedding
+- Custom style classes
 
-*如需更详细的语法说明，请参考[Markdown官方文档](https://www.markdownguide.org/)*
+*For more detailed syntax reference, please see [Markdown Official Documentation](https://www.markdownguide.org/)*

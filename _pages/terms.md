@@ -1,29 +1,29 @@
 ---
 permalink: /terms/
-title: "隐私政策与使用条款"
+title: "Privacy Policy & Terms of Use"
 modified: 2026-03-03
 ---
 
-## 隐私政策
+## Privacy Policy
 
-本网站尊重并保护访问者的隐私。我们不会收集或存储任何个人身份信息。
+This website respects and protects visitors' privacy. We do not collect or store any personally identifiable information.
 
-### 数据收集
+### Data Collection
 
-* 本网站仅收集基本的访问统计信息（如IP地址、浏览器类型等）
-* 这些信息仅用于网站性能优化和访问分析
-* 所有信息均为匿名处理，不会与个人身份关联
+* This website only collects basic access statistics (such as IP address, browser type, etc.)
+* This information is used only for website performance optimization and access analysis
+* All information is anonymized and will not be associated with personal identity
 
-### Cookie使用
+### Cookie Usage
 
-* 本网站仅在必要时使用功能性Cookie
-* 不会使用跟踪性Cookie或广告Cookie
-* 您可以通过浏览器设置禁用Cookie
+* This website only uses functional cookies when necessary
+* Does not use tracking cookies or advertising cookies
+* You can disable cookies through your browser settings
 
-## 使用条款
+## Terms of Use
 
-* 本网站内容仅供个人学习和研究使用
-* 未经许可，请勿转载或用于商业用途
-* 如有任何问题，请通过联系方式与我取得联系
+* The content of this website is for personal learning and research purposes only
+* Do not repost or use for commercial purposes without permission
+* If you have any questions, please contact me through the contact information
 
-*最后更新：2026年3月*
+*Last updated: March 2026*

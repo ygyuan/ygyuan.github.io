@@ -1,44 +1,49 @@
 ---
 layout: archive
-title: "个人简历"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-## 教育背景
+## Education Background
 
-* [学位] - [学校名称]，[专业]，[年份]
-* [学位] - [学校名称]，[专业]，[年份]
+- **[Ph.D Degree]** - Northwestern Polytechnical University, Speech Processing, 2014.9-2019.12
+- **[Bachelor Degree]** - University Name, Computer Science, 2010.9-2024.6
 
-## 工作经历
+## Research Interests
 
-* [职位] - [公司/机构名称]，[时间段]
-  * [工作职责描述]
+- text/visual/multimodal large language models
+- speech processing
+- multimodal learning, clustering and retrieval
 
-* [职位] - [公司/机构名称]，[时间段]
-  * [工作职责描述]
+## Work Experience
 
-## 专业技能
+- **Engineer** - Tencent, 2020.1-Now
+  - [Job description]
+- **Joint-trained Ph.D program** - National University of Singapore, 2017.09-2018.09
+- **Intern** - Institute for Infocomm Research, 2016.01-2017.01
 
-* [技能类别1]: [具体技能]
-* [技能类别2]: [具体技能]
-* [技能类别3]: [具体技能]
+## Technical Skills
 
-## 学术成果
+- **Programming Languages**: Python, C++, Bash
+- **Technical Stack**: 
+- **Tools & Software**: 
+
+## Publications
 
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-## 演讲报告
+## Talks & Presentations
 
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-## 教学经历
+## Teaching Experience
 
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
