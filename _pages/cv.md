@@ -21,7 +21,6 @@ redirect_from:
 ## Work Experience
 
 - **Engineer** - Tencent, 2020.1-Now
-  - [Job description]
 - **Joint-trained Ph.D program** - National University of Singapore, 2017.09-2018.09
 - **Intern** - Institute for Infocomm Research, 2016.01-2017.01
 
