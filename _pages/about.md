@@ -1,53 +1,53 @@
 ---
 permalink: /
-title: "YougenYuan"
+title: "Yougen Yuan - AI Researcher & Engineer"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-## Personal Profile
+## About Me
 
-Welcome to my personal homepage! I am a researcher and engineer specializing in text/visual/multimodal large language models, speech processing, multimodal learning, clustering and retrieval.
+I am a Senior AI Algorithm Engineer at Tencent, specializing in Large Language Models (LLMs), Vision-Language Models (VLLMs), speech processing, multimodal learning, clustering, and retrieval systems. My research focuses on developing cutting-edge AI technologies that bridge the gap between different modalities.
 
-## Basic Information
+## Professional Background
 
-- **Name**: Yougen Yuan
-- **Position**: Senior AI Algorithm Engineer
-- **Institution**: Tencent
-- **Email**: yougenyuan@gmail.com
+- **Current Position**: Senior AI Algorithm Engineer at Tencent
+- **Education**: Ph.D. in Speech Processing, Northwestern Polytechnical University (2014-2019)
+- **Research Interests**: LLMs/VLLMs, Speech Processing, Multimodal Learning, Clustering, Retrieval
 
-## Education Background
+## Key Expertise
 
-- **[Ph.D Degree]** - Northwestern Polytechnical University, Speech Processing, 2014.9-2019.12
-- **[Bachelor Degree]** - University Name, Computer Science, 2010.9-2024.6
+### Core Research Areas
+- **Large Language Models**: Development and optimization of text-based and multimodal LLMs
+- **Speech Processing**: Audio signal processing, speech recognition, and synthesis
+- **Multimodal Learning**: Integration of visual, textual, and audio modalities
+- **Clustering & Retrieval**: Advanced algorithms for information organization and search
 
-## Research Interests
-
-- text/visual/multimodal large language models
-- speech processing
-- multimodal learning, clustering and retrieval
-
-## Work Experience
-
-- **Engineer** - Tencent, 2020.1-Now
-- **Joint-trained Ph.D program** - National University of Singapore, 2017.09-2018.09
-- **Intern** - Institute for Infocomm Research, 2016.01-2017.01
-
-## Technical Skills
-
+### Technical Skills
 - **Programming Languages**: Python, C++, Bash
-- **Technical Stack**: 
-- **Tools & Software**: 
+- **Frameworks & Libraries**: PyTorch, TensorFlow, Transformers, OpenCV
+- **Tools**: Git, Docker, Kubernetes, MLflow
+- **Cloud Platforms**: AWS, Azure, Tencent Cloud
+
+## Recent Focus
+
+Currently working on advancing multimodal AI systems that can effectively process and understand information across different data types (text, images, audio) to create more intelligent and context-aware applications.
+
+## Academic Contributions
+
+I have published multiple papers in top-tier conferences and journals, contributing to the advancement of AI technologies in speech processing and multimodal learning.
 
 ## Contact Information
 
-If you are interested in my research or projects, feel free to contact me through:
+Feel free to reach out for collaborations, research discussions, or professional opportunities:
 
 - **Email**: yougenyuan@gmail.com
-- **GitHub**: "https://github.com/ygyuan"
-- **LinkedIn**: "https://www.linkedin.com/in/yougenyuan"
+- **GitHub**: [ygyuan](https://github.com/ygyuan)
+- **LinkedIn**: [Yougen Yuan](https://www.linkedin.com/in/yougenyuan)
+- **Google Scholar**: [Yougen Yuan](https://scholar.google.com/citations?user=eQwn2vEAAAAJ)
+- **ORCID**: [0000-0002-2490-566X](https://orcid.org/0000-0002-2490-566X)
 
 ---
 

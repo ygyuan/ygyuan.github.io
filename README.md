@@ -1,7 +1,30 @@
-# YougenYuan Pages
-**YougenYuan Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# YougenYuan Pages - Optimized Academic Portfolio
 
-# Getting Started
+**YougenYuan Pages is an optimized GitHub Pages template for professional academic and portfolio websites.**
+
+## 🚀 Recent Optimizations
+
+This template has been recently optimized with the following improvements:
+
+### SEO & Performance
+- Enhanced SEO configuration with meta tags and structured data
+- Added Google Analytics 4 support
+- Improved social media sharing capabilities
+- Optimized meta descriptions and Open Graph tags
+
+### Content & Navigation
+- Updated homepage with professional content structure
+- Enhanced navigation menu with better organization
+- Improved CV/resume page with detailed professional information
+- Optimized publications page with filtering capabilities
+
+### Technical Improvements
+- Updated dependencies to latest stable versions
+- Added jekyll-seo-tag plugin for better SEO
+- Enhanced configuration for better performance
+- Improved multi-language support
+
+## Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Click the "Use this template" button in the top right.
@@ -69,7 +92,7 @@ You should now be able to access the website from `localhost:4000`.
 
 If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development container configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your YougenYuan page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
 
-# Maintenance
+## Maintenance
 
 Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/ygyuan/ygyuan.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/ygyuan/ygyuan.github.io/discussions).
 
