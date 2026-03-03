@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2016-01-01-Deep-neural-network-derived-bottleneck-features-for-accurate-audio-classification
 date: 2016-01-01
 venue: 'Proc. ICMEW'
-citation: 'Bihong Zhang, Lei Xie, Yougen \textf{Yuan, Huaiping Ming, Dongyan Huang, Mingli Song, &quot;Deep neural network derived bottleneck features for accurate audio classification.&quot; Proc. ICMEW, 2016.'
+citation: 'Bihong Zhang, Lei Xie, Yougen Yuan, Huaiping Ming, Dongyan Huang, Mingli Song, &quot;Deep neural network derived bottleneck features for accurate audio classification.&quot; Proc. ICMEW, 2016.'
 category: conferences
 ---
 

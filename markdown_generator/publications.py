@@ -127,11 +127,15 @@ def process_bibtex_file(filename: str):
             # Build citation
             citation = ""
             
-            # Authors - handle LaTeX formatting
+            # Authors - handle LaTeX formatting more robustly
             authors = b.get('author', '')
             if authors:
                 # Clean LaTeX formatting
-                authors = authors.replace("\\textbf{", "").replace("}", "")
+                authors = re.sub(r'\\textbf\{([^}]*)\}', r'\1', authors)  # Remove \textbf{}
+                authors = re.sub(r'\\textf\{([^}]*)\}', r'\1', authors)  # Remove \textf{}
+                authors = re.sub(r'\\[a-zA-Z]+\{([^}]*)\}', r'\1', authors)  # Remove other LaTeX commands
+                authors = authors.replace("{", "").replace("}", "")  # Remove remaining braces
+                
                 author_list = authors.split(' and ')
                 for author in author_list:
                     # Simple author name extraction
