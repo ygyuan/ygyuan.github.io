@@ -36,13 +36,13 @@ redirect_from:
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-## Talks & Presentations
+## Talks
 
 <ul>{% for post in site.talks reversed %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-## Teaching Experience
+## Lectures
 
 <ul>{% for post in site.teaching reversed %}
   {% include archive-single-cv.html %}
