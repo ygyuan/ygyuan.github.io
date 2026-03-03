@@ -1,64 +1,45 @@
 ---
 layout: archive
-title: "CV"
+title: "个人简历"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## 教育背景
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* [学位] - [学校名称]，[专业]，[年份]
+* [学位] - [学校名称]，[专业]，[年份]
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## 工作经历
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* [职位] - [公司/机构名称]，[时间段]
+  * [工作职责描述]
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* [职位] - [公司/机构名称]，[时间段]
+  * [工作职责描述]
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## 专业技能
+
+* [技能类别1]: [具体技能]
+* [技能类别2]: [具体技能]
+* [技能类别3]: [具体技能]
+
+## 学术成果
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+## 演讲报告
+
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
+## 教学经历
+
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
