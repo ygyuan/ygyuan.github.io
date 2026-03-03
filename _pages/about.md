@@ -27,9 +27,9 @@ I am a Senior AI Algorithm Engineer at Tencent, specializing in Large Language M
 
 ### Technical Skills
 - **Programming Languages**: Python, C++, Bash
-- **Frameworks & Libraries**: PyTorch, TensorFlow, Transformers, OpenCV
-- **Tools**: Git, Docker, Kubernetes, MLflow
-- **Cloud Platforms**: AWS, Azure, Tencent Cloud
+- **Frameworks & Libraries**: PyTorch, Transformers, OpenCV
+- **Tools**: Git, Huggingface, LLamaFactory, EasyR1, ms-swift, Venus, Taiji
+- **Cloud Platforms**: Tencent Cloud
 
 ## Recent Focus
 
