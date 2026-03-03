@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me
 
-I am a Senior AI Algorithm Engineer at Tencent, specializing in Large Language Models (LLMs), Vision-Language Models (VLLMs), speech processing, multimodal learning, clustering, and retrieval systems. My research focuses on developing cutting-edge AI technologies that bridge the gap between different modalities.
+I am a Senior AI Algorithm Engineer at Tencent, specializing in Large Language Models (LLMs), Vision-Language Models (VLLMs), speech processing, multimodal learning, clustering, and retrieval systems. My research focuses on developing safe and secure AI technologies to ensure content safety for multimodal samples.
 
 ## Professional Background
 
